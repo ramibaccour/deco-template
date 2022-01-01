@@ -3,13 +3,7 @@
 <nav class="navbar navbar-expand-lg navbar-light bg-dark navbar-dark shadow">
     <div class="container-fluid">
       <button class="navbar-toggler collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#navbar-content">
-        <div class="hamburger-toggle">
-          <div class="hamburger">
-            <span></span>
-            <span></span>
-            <span></span>
-          </div>
-        </div>
+        <i class="fas fa-bars"></i>
       </button>
       <div class="collapse navbar-collapse" id="navbar-content">
         <ul class="navbar-nav mr-auto mb-2 mb-lg-0">
