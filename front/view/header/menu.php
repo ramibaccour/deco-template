@@ -1,6 +1,5 @@
-<main>
 <!-- Start Mega Menu HTML -->
-<nav class="navbar navbar-expand-lg navbar-light bg-dark navbar-dark shadow">
+<nav class="navbar navbar-expand-lg navbar-light sticky-top">
     <div class="container-fluid">
       <button class="navbar-toggler collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#navbar-content">
         <i class="fas fa-bars"></i>
@@ -99,5 +98,3 @@
     </div>
   </nav>
 <!-- END Mega Menu HTML -->
-
- </main>
