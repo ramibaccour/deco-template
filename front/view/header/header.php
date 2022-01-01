@@ -1,4 +1,5 @@
 
+ <header>
 <div class="header-bar-top header-dispaly-flex-between">
         <div>
                 <span class="margin-right-20">
@@ -19,7 +20,7 @@
                 </div>  
         </div>
 </div>
-      
+</header>      
 
 <?php
         include 'menu.php';
