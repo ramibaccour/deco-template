@@ -4,6 +4,48 @@
     color: white;
     padding: 10px 20px 10px 20px;
     font-size: 14px;
-    font-weight: 500;
+    font-weight: bold;
     line-height: 1.8;
+}
+.header-contact
+{
+    width: 100px;
+    text-align: center;
+    padding: 10px;
+    background-color: black!important;
+    margin-top: -10px;
+    height: 25px;
+}
+.header-contact a
+{
+    color: white;
+}
+@media (min-width: 769px) 
+{
+    .header-bar-top
+    {
+        height: 25px;
+    }
+    .header-dispaly-flex-between
+    {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+}
+@media (max-width: 768px) 
+{
+    .header-margin-top-10
+    {
+        margin-top: 10px;
+    }
+    .header-dispaly-flex-between
+    {
+        text-align: center;
+        margin-top: 0!important;
+    }
+    .header-contact
+    {
+        display: none;
+    }
 }
