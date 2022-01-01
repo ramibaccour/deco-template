@@ -7,6 +7,7 @@
         <link rel="stylesheet" href="assets/css/font-awesome.css" />
         <link rel="stylesheet" href="assets/css/main.css" />
         <link rel="stylesheet" href="assets/css/header.css" />
+        <link rel="stylesheet" href="assets/css/menu.css" />
     </head>
     <body>
     <?php

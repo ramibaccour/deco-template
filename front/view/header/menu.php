@@ -1,10 +1,13 @@
 <!-- Start Mega Menu HTML -->
 <nav class="navbar navbar-expand-lg navbar-light sticky-top">
     <div class="container-fluid">
+      <a class="navbar-brand " href="#">
+        <img src="assets/image/logo.png"/>
+      </a>
       <button class="navbar-toggler collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#navbar-content">
         <i class="fas fa-bars"></i>
       </button>
-      <div class="collapse navbar-collapse" id="navbar-content">
+      <div class="collapse navbar-collapse menu-flex-grow-unset" id="navbar-content">
         <ul class="navbar-nav mr-auto mb-2 mb-lg-0">
           <li class="nav-item">
             <a class="nav-link active" aria-current="page" href="#">Home</a>
