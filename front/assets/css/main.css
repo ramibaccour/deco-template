@@ -36,3 +36,18 @@ a
 {
     width: 15px;
 }
+.badge-notification
+{
+    display: inline-block;
+    min-width: 12px;
+    min-height: 12px;
+    background-color: red;
+    position: relative;
+    top: -11px;
+    left: -7px;
+    padding: 3px;
+    font-size: 10px;
+    text-align: center;
+    border-radius: 50%;
+    color:white;
+}

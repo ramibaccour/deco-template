@@ -1,12 +1,14 @@
 <!-- Start Mega Menu HTML -->
 <nav class="navbar navbar-expand-lg navbar-light sticky-top">
     <div class="container-fluid">
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbar-content">
+        <i class="fas fa-bars"></i>
+      </button>
       <a class="navbar-brand " href="#">
         <img src="assets/image/logo.png"/>
       </a>
-      <button class="navbar-toggler collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#navbar-content">
-        <i class="fas fa-bars"></i>
-      </button>
+      
+      
       <div class="collapse navbar-collapse menu-flex-grow-unset" id="navbar-content">
         <ul class="navbar-nav mr-auto mb-2 mb-lg-0">
           <li class="nav-item">
@@ -97,6 +99,19 @@
             <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
           </li>
         </ul>
+      </div>
+      <div>
+        <a class="navbar-brand " href="#">
+          <i class="far fa-user-circle">
+            Hi Hamdi
+          </i>
+        </a>
+        <a class="navbar-brand " href="#">
+          <i class="far fa-bell"><span class=" badge-notification"> 10</span></i>
+        </a>
+        <a class="navbar-brand " href="#">
+        <i class="fas fa-shopping-cart"><span class=" badge-notification"> 10</span></i>
+        </a>
       </div>
     </div>
   </nav>
