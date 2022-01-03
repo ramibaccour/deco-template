@@ -1,12 +1,13 @@
-<!-- Start Mega Menu HTML -->
-<nav class="navbar navbar-expand-lg navbar-light sticky-top">
+<!-- Start Menu HTML -->
+<nav class="navbar navbar-expand-md bg-white sticky-top">
     <div class="container-fluid">
+      <a  href="#">
+        <img src="assets/image/logo.png"/>
+      </a>
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbar-content">
         <i class="fas fa-bars"></i>
       </button>
-      <a class="navbar-brand " href="#">
-        <img src="assets/image/logo.png"/>
-      </a>
+      
       
       
       <div class="collapse navbar-collapse menu-flex-grow-unset" id="navbar-content">
@@ -55,10 +56,10 @@
           <li class="nav-item">
             <a class="nav-link" href="#">Link</a>
           </li>
-          <li class="nav-item dropdown dropdown-mega position-static">
+          <li class="nav-item dropdown  position-static">
             <a class="nav-link dropdown-toggle" href="#" data-bs-toggle="dropdown" data-bs-auto-close="outside">Megamenu</a>
             <div class="dropdown-menu shadow">
-              <div class="mega-content px-4">
+              <div class=" px-4">
                 <div class="container-fluid">
                   <div class="row">
                     <div class="col-12 col-sm-4 col-md-3 py-4">
@@ -100,19 +101,19 @@
           </li>
         </ul>
       </div>
-      <div>
-        <a class="navbar-brand " href="#">
+      <div class="collapse navbar-collapse menu-flex-grow-unset">
+        <a  href="#">
           <i class="far fa-user-circle">
             Hi Hamdi
           </i>
         </a>
-        <a class="navbar-brand " href="#">
+        <a  href="#">
           <i class="far fa-bell"><span class=" badge-notification"> 10</span></i>
         </a>
-        <a class="navbar-brand " href="#">
+        <a  href="#">
         <i class="fas fa-shopping-cart"><span class=" badge-notification"> 10</span></i>
         </a>
       </div>
     </div>
   </nav>
-<!-- END Mega Menu HTML -->
+<!-- END Menu HTML -->

@@ -35,10 +35,6 @@
 }
 @media (max-width: 768px) 
 {
-    .header-margin-top-10
-    {
-        margin-top: 10px;
-    }
     .header-dispaly-flex-between
     {
         text-align: center;
